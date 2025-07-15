@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://faxlab3d.github.io/Spline-Architect/</loc>
+        <lastmod>2025-07-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://faxlab3d.github.io/Spline-Architect/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="https://faxlab3d.github.io/Spline-Architect/lt/"/>
+    </url>
+    <url>
+        <loc>https://faxlab3d.github.io/Spline-Architect/usage/</loc>
+        <lastmod>2025-07-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://faxlab3d.github.io/Spline-Architect/usage/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="https://faxlab3d.github.io/Spline-Architect/lt/usage/"/>
+    </url>
+    <url>
+        <loc>https://faxlab3d.github.io/Spline-Architect/lt/</loc>
+        <lastmod>2025-07-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="lt" href="https://faxlab3d.github.io/Spline-Architect/lt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://faxlab3d.github.io/Spline-Architect/"/>
+    </url>
+    <url>
+        <loc>https://faxlab3d.github.io/Spline-Architect/lt/usage/</loc>
+        <lastmod>2025-07-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="lt" href="https://faxlab3d.github.io/Spline-Architect/lt/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://faxlab3d.github.io/Spline-Architect/usage/"/>
+    </url>
+</urlset>
