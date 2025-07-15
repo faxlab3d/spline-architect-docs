@@ -1,0 +1,20 @@
+site_name: Spline Architect
+site_url: https://faxlab3d.github.io/Spline-Architect
+repo_url: https://github.com/faxlab3d/Spline-Architect
+
+theme:
+  name: material
+  language: en
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: lt
+          name: Lietuvių
+          build: true
