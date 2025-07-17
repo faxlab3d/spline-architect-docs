@@ -50,7 +50,16 @@
     
     
     
-  </head>
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     <body dir="ltr">
@@ -815,28 +824,32 @@
 <hr />
 <h2 id="1-atsisiuskite-plugina">1. Atsisiųskite plugin'ą<a class="headerlink" href="#1-atsisiuskite-plugina" title="Permanent link">&para;</a></h2>
 <p>Jeigu gavote nemokamą bandomąją versiją paštu, nukopijuokite plugino failus į "/JusuProjektas/Plugins/" folderį</p>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/folder-copy.jpg" /></p>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/folder-copy.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/folder-copy.jpg" /></a></p>
 <p>Jeigu pirkote <a href="https://www.fab.com/listings/356b1d13-5080-4418-893d-5a39546bc276">Spline Architect FAB parduotuvėje</a>, jums reikia atsisiųsti plugin'ą per Epic Games Launcher ir įjungti jį savo projekte.</p>
 <ul>
 <li>Raskite Spline Architect "FAB Library" skilyje ir spustelkite "Install to Engine"</li>
+</ul>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/epic-games-launcher.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/epic-games-launcher.jpg" /></a></p>
+<ul>
 <li>Pasirinkite savo UE versiją ir instaliuokite plugin'ą</li>
 </ul>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/epic-games-launcher.jpg" /></p>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/engine-ver-select.jpg" /> </p>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/downloading.jpg" /></p>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/engine-ver-select.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/engine-ver-select.jpg" /></a> </p>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/downloading.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/downloading.jpg" /></a></p>
 <hr />
 <h2 id="2-aktyvuokite-plugina">2. Aktyvuokite plugin'ą<a class="headerlink" href="#2-aktyvuokite-plugina" title="Permanent link">&para;</a></h2>
 <p>Atidarykite savo UE projektą ir spauskite Edit&gt;Plugins, raskite Spline Architect ir pažymėkite varnelę (nepamirškite perkrauti Unreal Engine)</p>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/edit-plugins.jpg" /></p>
-<p><img alt="img" src="../../../1.%20Quick%20Start/assets/plugins.jpg" /></p>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/edit-plugins.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/edit-plugins.jpg" /></a></p>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/plugins.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../1.%20Quick%20Start/assets/plugins.jpg" /></a></p>
 <hr />
 <h2 id="2-paleiskite-spline-architect-widgeta">2. Paleiskite Spline Architect widget'ą<a class="headerlink" href="#2-paleiskite-spline-architect-widgeta" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Spauskite Window&gt;Open Spline Architect Widget</li>
+</ul>
+<p><a class="glightbox" href="../../../1.%20Quick%20Start/assets/launch-widget.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Launch Widget" src="../../../1.%20Quick%20Start/assets/launch-widget.jpg" width="400" /></a></p>
+<ul>
 <li>Atsidariusį meniu galite prisegti prie savo editor'iaus kaip bet kurį kitą meniu</li>
 </ul>
-<p><img alt="Launch Widget" src="../../../1.%20Quick%20Start/assets/launch-widget.jpg" width="200" /></p>
-<p><iframe width="640" height="640" src="https://www.youtube.com/embed/3aaD7yW6nKk" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">how to embed youtube video</a> and <a href=“https://lasvegaspatiens.se/"las vegas patiens</a></iframe></p>
+<p><iframe width="480" height="480" src="https://www.youtube.com/embed/3aaD7yW6nKk" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe></p>
 
 
 
@@ -891,5 +904,7 @@
       <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
