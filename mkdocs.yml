@@ -1,20 +1,28 @@
-site_name: Spline Architect
-site_url: https://faxlab3d.github.io/Spline-Architect
-repo_url: https://github.com/faxlab3d/Spline-Architect
+site_name: Spline Architect Plugin Documentation
+repo_url: https://www.fab.com/listings/356b1d13-5080-4418-893d-5a39546bc276
+docs_dir: docs/
 
 theme:
   name: material
-  language: en
+  features:
+    - content.images.lightbox
 
 plugins:
   - search
   - i18n:
-      docs_structure: suffix
       languages:
         - locale: en
           default: true
           name: English
           build: true
+          site_name: "Spline Architect Plugin Documentation (EN)"
         - locale: lt
           name: Lietuvių
           build: true
+          site_name: "Spline Architect Įskiepio Dokumentacija (LT)"
+  - glightbox
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true

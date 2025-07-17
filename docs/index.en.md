@@ -1,4 +1,6 @@
-\# Welcome to Spline Architect!
+# Home
+
+Welcome to Spline Architect!
 
 
 
