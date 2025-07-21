@@ -78,48 +78,6 @@
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/converting/"/>
     </url>
     <url>
-        <loc>None3.%20Tutorials/booleans/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/booleans/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/booleans/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/custom-corner/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/custom-corner/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/custom-corner/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/door-custom-piece/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/door-custom-piece/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/door-custom-piece/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/floors/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/floors/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/floors/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/simple-wall/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/simple-wall/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/simple-wall/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/wall-stacking/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/wall-stacking/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/wall-stacking/"/>
-    </url>
-    <url>
         <loc>Nonelt/</loc>
         <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
@@ -195,65 +153,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/converting/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Concepts/converting/"/>
-    </url>
-    <url>
-        <loc>Nonelt/2.%20Overview/Concepts/floor-mesh/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/floor-mesh/"/>
-    </url>
-    <url>
-        <loc>Nonelt/2.%20Overview/Concepts/randomization/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/randomization/"/>
-    </url>
-    <url>
-        <loc>Nonelt/2.%20Overview/Concepts/stacking/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/stacking/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/booleans/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/booleans/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/booleans/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/custom-corner/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/custom-corner/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/custom-corner/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/door-custom-piece/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/door-custom-piece/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/door-custom-piece/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/floors/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/floors/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/floors/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/simple-wall/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/simple-wall/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/simple-wall/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/wall-stacking/</loc>
-        <lastmod>2025-07-21</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/wall-stacking/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/wall-stacking/"/>
     </url>
 </urlset>
