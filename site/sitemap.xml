@@ -2,184 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/"/>
     </url>
     <url>
-        <loc>None1.%20Quick%20Start/1.%20installation/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None1.%20Intro/1.installation/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Quick%20Start/1.%20installation/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Quick%20Start/1.%20installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Intro/1.installation/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Intro/1.installation/"/>
     </url>
     <url>
-        <loc>None2.%20Overview/1.%20Spline-Architect-Wall/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None1.%20Intro/2.how-it-works/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/1.%20Spline-Architect-Wall/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/1.%20Spline-Architect-Wall/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Intro/2.how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Intro/2.how-it-works/"/>
     </url>
     <url>
-        <loc>None2.%20Overview/2.%20Spline-Architect-Custom-Piece/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/1.Spline-Architect-Wall/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/2.%20Spline-Architect-Custom-Piece/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/2.%20Spline-Architect-Custom-Piece/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/1.Spline-Architect-Wall/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/1.Spline-Architect-Wall/"/>
     </url>
     <url>
-        <loc>None2.%20Overview/3.%20Spline-Architect-Boolean/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/2.Spline-Architect-Custom-Piece/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/3.%20Spline-Architect-Boolean/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/3.%20Spline-Architect-Boolean/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/2.Spline-Architect-Custom-Piece/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/2.Spline-Architect-Custom-Piece/"/>
     </url>
     <url>
-        <loc>None2.%20Overview/4.%20Wall-preset/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/3.Spline-Architect-Boolean/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/4.%20Wall-preset/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/4.%20Wall-preset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/3.Spline-Architect-Boolean/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/3.Spline-Architect-Boolean/"/>
     </url>
     <url>
-        <loc>None2.%20Overview/5.%20Widgets/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/4.Wall-preset/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/5.%20Widgets/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/5.%20Widgets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/4.Wall-preset/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/4.Wall-preset/"/>
     </url>
     <url>
-        <loc>None3.%20Tutorials/booleans/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/5.Widgets/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/booleans/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/booleans/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/5.Widgets/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/5.Widgets/"/>
     </url>
     <url>
-        <loc>None3.%20Tutorials/custom-corner/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Components/6.Project-Settings/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/custom-corner/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/custom-corner/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/6.Project-Settings/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/6.Project-Settings/"/>
     </url>
     <url>
-        <loc>None3.%20Tutorials/door-custom-piece/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Concepts/baking/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/door-custom-piece/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/door-custom-piece/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Concepts/baking/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/baking/"/>
     </url>
     <url>
-        <loc>None3.%20Tutorials/floors/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>None2.%20Overview/Concepts/converting/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/floors/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/floors/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/simple-wall/</loc>
-        <lastmod>2025-07-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/simple-wall/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/simple-wall/"/>
-    </url>
-    <url>
-        <loc>None3.%20Tutorials/wall-stacking/</loc>
-        <lastmod>2025-07-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/wall-stacking/"/>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/wall-stacking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Concepts/converting/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/converting/"/>
     </url>
     <url>
         <loc>Nonelt/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None"/>
     </url>
     <url>
-        <loc>Nonelt/1.%20Quick%20Start/1.%20installation/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/1.%20Intro/1.installation/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Quick%20Start/1.%20installation/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Quick%20Start/1.%20installation/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Intro/1.installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Intro/1.installation/"/>
     </url>
     <url>
-        <loc>Nonelt/2.%20Overview/1.%20Spline-Architect-Wall/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/1.%20Intro/2.how-it-works/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/1.%20Spline-Architect-Wall/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/1.%20Spline-Architect-Wall/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/1.%20Intro/2.how-it-works/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None1.%20Intro/2.how-it-works/"/>
     </url>
     <url>
-        <loc>Nonelt/2.%20Overview/2.%20Spline-Architect-Custom-Piece/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/1.Spline-Architect-Wall/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/2.%20Spline-Architect-Custom-Piece/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/2.%20Spline-Architect-Custom-Piece/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/1.Spline-Architect-Wall/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/1.Spline-Architect-Wall/"/>
     </url>
     <url>
-        <loc>Nonelt/2.%20Overview/3.%20Spline-Architect-Boolean/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/2.Spline-Architect-Custom-Piece/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/3.%20Spline-Architect-Boolean/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/3.%20Spline-Architect-Boolean/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/2.Spline-Architect-Custom-Piece/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/2.Spline-Architect-Custom-Piece/"/>
     </url>
     <url>
-        <loc>Nonelt/2.%20Overview/4.%20Wall-preset/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/3.Spline-Architect-Boolean/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/4.%20Wall-preset/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/4.%20Wall-preset/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/3.Spline-Architect-Boolean/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/3.Spline-Architect-Boolean/"/>
     </url>
     <url>
-        <loc>Nonelt/2.%20Overview/5.%20Widgets/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/4.Wall-preset/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/5.%20Widgets/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/5.%20Widgets/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/4.Wall-preset/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/4.Wall-preset/"/>
     </url>
     <url>
-        <loc>Nonelt/3.%20Tutorials/booleans/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/5.Widgets/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/booleans/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/booleans/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/5.Widgets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/5.Widgets/"/>
     </url>
     <url>
-        <loc>Nonelt/3.%20Tutorials/custom-corner/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Components/6.Project-Settings/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/custom-corner/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/custom-corner/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Components/6.Project-Settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Components/6.Project-Settings/"/>
     </url>
     <url>
-        <loc>Nonelt/3.%20Tutorials/door-custom-piece/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Concepts/baking/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/door-custom-piece/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/door-custom-piece/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/baking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Concepts/baking/"/>
     </url>
     <url>
-        <loc>Nonelt/3.%20Tutorials/floors/</loc>
-        <lastmod>2025-07-17</lastmod>
+        <loc>Nonelt/2.%20Overview/Concepts/converting/</loc>
+        <lastmod>2025-07-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/floors/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/floors/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/simple-wall/</loc>
-        <lastmod>2025-07-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/simple-wall/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/simple-wall/"/>
-    </url>
-    <url>
-        <loc>Nonelt/3.%20Tutorials/wall-stacking/</loc>
-        <lastmod>2025-07-17</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/3.%20Tutorials/wall-stacking/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None3.%20Tutorials/wall-stacking/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.%20Overview/Concepts/converting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None2.%20Overview/Concepts/converting/"/>
     </url>
 </urlset>

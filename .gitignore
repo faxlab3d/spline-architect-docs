@@ -1,0 +1,28 @@
+# Ignore Photoshop files
+*.psd
+
+# Node modules (if you're using Node.js)
+node_modules/
+
+# macOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Compiled output
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS or temp files
+Thumbs.db
+*.swp
+*.tmp
