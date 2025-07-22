@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\index.lt.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\index.lt.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\mkdocs.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mkdocs.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.en.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.en.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -58,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +74,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "index.lt.md",
+              "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\index.lt.md",
+              "RelativeDocumentMoniker": "docs\\index.lt.md",
+              "ToolTip": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\index.lt.md",
+              "RelativeToolTip": "docs\\index.lt.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-21T17:58:34.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mkdocs.yml",
+              "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\mkdocs.yml",
+              "RelativeDocumentMoniker": "mkdocs.yml",
+              "ToolTip": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\mkdocs.yml",
+              "RelativeToolTip": "mkdocs.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-21T17:54:14.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "6.Project-Settings.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\6.Project-Settings.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\6.Project-Settings.lt.md",
@@ -74,12 +108,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\6.Project-Settings.lt.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "6.Project-Settings.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\6.Project-Settings.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\6.Project-Settings.en.md",
@@ -87,12 +120,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\6.Project-Settings.en.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "5.Widgets.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\5.Widgets.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\5.Widgets.lt.md",
@@ -100,12 +132,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\5.Widgets.lt.md",
               "ViewState": "AgIAAD8AAAAAAAAAAAAcwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "5.Widgets.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\5.Widgets.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\5.Widgets.en.md",
@@ -113,12 +144,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\5.Widgets.en.md",
               "ViewState": "AgIAADwAAAAAAAAAAAAcwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "4.Wall-preset.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\4.Wall-preset.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\4.Wall-preset.lt.md",
@@ -126,12 +156,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\4.Wall-preset.lt.md",
               "ViewState": "AgIAADIAAAAAAAAAAAAcwGEAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "4.Wall-preset.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\4.Wall-preset.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\4.Wall-preset.en.md",
@@ -139,12 +168,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\4.Wall-preset.en.md",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "3.Spline-Architect-Boolean.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.lt.md",
@@ -152,12 +180,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.lt.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:30.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:30.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "3.Spline-Architect-Boolean.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\3.Spline-Architect-Boolean.en.md",
@@ -170,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "2.Spline-Architect-Custom-Piece.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.lt.md",
@@ -178,12 +205,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.lt.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:29.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:29.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "2.Spline-Architect-Custom-Piece.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.en.md",
@@ -191,12 +217,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\2.Spline-Architect-Custom-Piece.en.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:29.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:29.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "1.Spline-Architect-Wall.lt.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\1.Spline-Architect-Wall.lt.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\1.Spline-Architect-Wall.lt.md",
@@ -204,12 +229,11 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\1.Spline-Architect-Wall.lt.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:29.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:29.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "1.Spline-Architect-Wall.en.md",
               "DocumentMoniker": "C:\\WORK\\SplineArchitect\\Docs\\spline-architect-docs\\docs\\2. Overview\\Components\\1.Spline-Architect-Wall.en.md",
               "RelativeDocumentMoniker": "docs\\2. Overview\\Components\\1.Spline-Architect-Wall.en.md",
@@ -217,8 +241,7 @@
               "RelativeToolTip": "docs\\2. Overview\\Components\\1.Spline-Architect-Wall.en.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-07-21T11:44:29.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T11:44:29.817Z"
             }
           ]
         }
