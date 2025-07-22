@@ -1,5 +1,4 @@
-# Getting Started
-
+# Index
 ## Spline Architect – Procedural Walls, Buildings, and Structures with Splines
 
 **Spline Architect** is a plugin for Unreal Engine 5 that enables fast, non-destructive creation of simple or complex structures and buildings using modular meshes placed along spline paths.

@@ -19,7 +19,7 @@ plugins:
         - locale: lt
           name: Lietuvių
           build: true
-          site_name: "Spline Architect Įskiepio Dokumentacija (LT)"
+          site_name: "Spline Architect Plugin'o Dokumentacija (LT)"
   - glightbox:
 markdown_extensions:
   - markdown.extensions.extra

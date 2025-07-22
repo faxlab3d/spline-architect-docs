@@ -1,5 +1,7 @@
 # Ignore Photoshop files
 *.psd
+*.rar
+*.zip
 
 # Node modules (if you're using Node.js)
 node_modules/
