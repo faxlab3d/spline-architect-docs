@@ -590,7 +590,7 @@
   
   
   <span class="md-ellipsis">
-    Wall Preset
+    4.Wall preset
     
   </span>
   
@@ -814,9 +814,9 @@
 
 
 
-<h1 id="how-does-it-work">How Does It Work?<a class="headerlink" href="#how-does-it-work" title="Permanent link">&para;</a></h1>
-<hr />
-<h2 id="principle-of-operation">Principle of Operation<a class="headerlink" href="#principle-of-operation" title="Permanent link">&para;</a></h2>
+<div><h1 id="how-does-it-work">How Does It Work?<a class="headerlink" href="#how-does-it-work" title="Permanent link">¶</a></h1>
+<hr>
+<h2 id="principle-of-operation">Principle of Operation<a class="headerlink" href="#principle-of-operation" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -827,32 +827,32 @@
 <tbody>
 <tr>
 <td>Spline Architect allows creating walls and buildings by arranging modular meshes along a spline. Meshes at corners are generated dynamically and can be either straight or curved.</td>
-<td width="200px"><a class="glightbox" href="assets/simple-wall-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/simple-wall-example.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/simple-wall-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/simple-wall-example.gif"></a></td>
 </tr>
 <tr>
 <td>Floor meshes are also generated dynamically and uniquely for each <code>SplineArchitectWall</code>.</td>
-<td width="200px"><a class="glightbox" href="assets/floor-mesh.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/floor-mesh.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/floor-mesh.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/floor-mesh.gif"></a></td>
 </tr>
 <tr>
 <td>Generation occurs in the <code>SplineArchitectWall</code> actor, inside the <code>OnConstruct()</code> function. This happens every time the actor is loaded unless the structure is baked.</td>
-<td width="200px"><a class="glightbox" href="assets/baked-disabled.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-disabled.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baked-disabled.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-disabled.gif"></a></td>
 </tr>
 <tr>
 <td>When baked, all “one-time” meshes are converted into regular <code>StaticMesh</code> components, and the actor no longer executes any logic when loading.</td>
-<td width="200px"><a class="glightbox" href="assets/baking-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baking-components.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baking-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baking-components.gif"></a></td>
 </tr>
 <tr>
 <td>Baked components can be modified manually, and changes will persist until the <code>SplineArchitectWall</code> is baked again.</td>
-<td width="200px"><a class="glightbox" href="assets/modifying-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/modifying-components.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/modifying-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/modifying-components.gif"></a></td>
 </tr>
 <tr>
 <td>During baking, <code>StaticMesh</code> assets for corners and floors are created. These meshes are saved with consistent naming and reused across different structures whenever possible.</td>
-<td width="200px"><a class="glightbox" href="assets/baked-assets.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-assets.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baked-assets.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-assets.jpg"></a></td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="important-details">Important Details<a class="headerlink" href="#important-details" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="important-details">Important Details<a class="headerlink" href="#important-details" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -863,14 +863,14 @@
 <tbody>
 <tr>
 <td>Spline Architect expects your modular meshes to be configured as follows:<br>- Their length is aligned along the X axis<br>- Pivot point is centered on X and Y axes and at floor level on Z axis</td>
-<td width="200px"><a class="glightbox" href="assets/pivot-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/pivot-example.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/pivot-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/pivot-example.jpg"></a></td>
 </tr>
 <tr>
 <td>All <code>SplineArchitectWall</code> actors must be baked before packaging the game; otherwise, meshes will not appear in the packaged game.</td>
-<td width="200px"><a class="glightbox" href="assets/bake-methods.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/bake-methods.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/bake-methods.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/bake-methods.jpg"></a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 

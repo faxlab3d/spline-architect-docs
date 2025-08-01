@@ -918,42 +918,42 @@
 
 
 
-<h1 id="splinearchitectwall">SplineArchitectWall<a class="headerlink" href="#splinearchitectwall" title="Permanent link">&para;</a></h1>
-<h2 id="1-kas-yra-splinearchitectwall">1. Kas yra <code>SplineArchitectWall</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectwall" title="Permanent link">&para;</a></h2>
+<div><h1 id="splinearchitectwall">SplineArchitectWall<a class="headerlink" href="#splinearchitectwall" title="Permanent link">¶</a></h1>
+<h2 id="1-kas-yra-splinearchitectwall">1. Kas yra <code>SplineArchitectWall</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectwall" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectWall</code> yra pagrindinė klasė, arba aktorius, kuriame bus sugeneruotos detalės iš modulinių meshų.
 Tam, kad <code>SplineArchitectWall</code> generuotu meshus, jis turi turėti <code>SplineComponent</code> komponentą.</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/wall-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/wall-example.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/wall-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/wall-example.jpg"></a></p>
 <p>Priattachinus <code>SplineArchitectWall</code> prie kito <code>SplineArchitectWall</code>, priattachintas aktorius bus pastatytas ant savo parent'o ir generuos meshus ant viršaus, kaip antras aukštas ar panašiai. </p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/stacked-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/stacked-wall.jpg" /></a></p>
-<hr />
-<h2 id="2-kaip-sukurti-splinearchitectwall">2. Kaip sukurti <code>SplineArchitectWall</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectwall" title="Permanent link">&para;</a></h2>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/stacked-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/stacked-wall.jpg"></a></p>
+<hr>
+<h2 id="2-kaip-sukurti-splinearchitectwall">2. Kaip sukurti <code>SplineArchitectWall</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectwall" title="Permanent link">¶</a></h2>
 <p>Sukurti <code>SplineArchitectWall</code> galima dviem būdais.</p>
 <ul>
 <li>Pirmas būdas yra rasti aktorių kūrimo meniu ir nutempti jį į level'į.</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/create-wall-actor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/create-wall-actor.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/create-wall-actor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/create-wall-actor.jpg"></a></p>
 <p>Kad sukurtas aktorius galėtų genertuoti meshus, reikia pridėti <code>SplineComponent</code> komponentą į patį aktorių.</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/add-spline-comp.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/add-spline-comp.jpg" /></a></p>
-<hr />
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/add-spline-comp.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/add-spline-comp.jpg"></a></p>
+<hr>
 <ul>
 <li>Antras ir paprastesnis būdas yra tiesiog paspausti "Add Spline Wall" mygtuką Spline Architect pagalbiniame widget'e. Šitas mygtukas padarys tą patį, kaip instrukcijos viršuje. Naujas <code>SplineArchitectWall</code> bus paspawn'intas levelyje viewport'o centre ir jam bus pridėtas <code>SplineComponent</code> komponentas.</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/add-spline-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/add-spline-wall.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/add-spline-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/add-spline-wall.jpg"></a></p>
 <ul>
 <li>Sukurti naują <code>SplineArchitectWall</code> ir priattachinti jį prie pažymėto <code>SplineArchitectWall</code> galima paspaudus "Add Wall to Selected"</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/stack-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/stack-wall.jpg" /></a></p>
-<hr />
-<h2 id="3-splinearchitectwall-parametrai">3. <code>SplineArchitectWall</code> parametrai<a class="headerlink" href="#3-splinearchitectwall-parametrai" title="Permanent link">&para;</a></h2>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/spline-architect-wall-parameters.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/spline-architect-wall-parameters.jpg" width="100px" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/stack-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/stack-wall.jpg"></a></p>
+<hr>
+<h2 id="3-splinearchitectwall-parametrai">3. <code>SplineArchitectWall</code> parametrai<a class="headerlink" href="#3-splinearchitectwall-parametrai" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/spline-architect-wall-parameters.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/spline-architect-wall-parameters.jpg" width="100px"></a></p>
 <div class="box-red">
-<h3 id="1-preset">1. Preset<a class="headerlink" href="#1-preset" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/preset.jpg" /></a></p>
+<h3 id="1-preset">1. Preset<a class="headerlink" href="#1-preset" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/preset.jpg"></a></p>
 <p>Preset kategorija turi vienintelį parametra "Preset" kuris yra structas nurodantis būtent kaip <code>SplineArchitectWall</code> bus generuojamas, kokie mesh'ai bus naudojami ir t.t.</p>
 </div>
 <div class="box-yellow">
-<h3 id="2-adjust-spline">2. Adjust Spline<a class="headerlink" href="#2-adjust-spline" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/adjust-spline.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/adjust-spline.jpg" /></a></p>
+<h3 id="2-adjust-spline">2. Adjust Spline<a class="headerlink" href="#2-adjust-spline" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/adjust-spline.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/adjust-spline.jpg"></a></p>
 <p>Adjust Spline kategorijoje yra funkcijos darbui su <code>SplineComponent</code> kuris yra šiame aktoriuje</p>
 <ul>
 <li><strong>Flatten Spline</strong> Points nustatys visų Spline Point'ų Z poziciją į pirmo Spline Point'o Z poziciją, pavyzdžiui jeigu netyčia kuris nors Spline Point'as buvo pajudintas Z ašimi ar pnš.</li>
@@ -965,8 +965,8 @@ Tam, kad <code>SplineArchitectWall</code> generuotu meshus, jis turi turėti <co
 </ul>
 </div>
 <div class="box-green">
-<h3 id="3-baking">3. Baking<a class="headerlink" href="#3-baking" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/baking.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/baking.jpg" /></a></p>
+<h3 id="3-baking">3. Baking<a class="headerlink" href="#3-baking" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/baking.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/baking.jpg"></a></p>
 <p>Baking kategorija turi keletą funkcijų ir parametrų reikalingų nurint išbake'inti ar atbake'inti <code>SplineArchitectWall</code> aktorių.
    Aktorius, kuris yra išbake'intas, nebegeneruos mesh'ų iš naujo ir jo WallPreset bus užrakintas ir jo nebebus galima keisti, kol nebus panaudota "UnBake" funkcija</p>
 <p><a href="../../Concepts/baking">Daugiau apie bake'inimą</a></p>
@@ -978,8 +978,8 @@ Tam, kad <code>SplineArchitectWall</code> generuotu meshus, jis turi turėti <co
 </ul>
 </div>
 <div class="box-blue">
-<h3 id="4-controls">4. Controls<a class="headerlink" href="#4-controls" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/controls.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/controls.jpg" /></a></p>
+<h3 id="4-controls">4. Controls<a class="headerlink" href="#4-controls" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/controls.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/controls.jpg"></a></p>
 <p>Controls kategorija turi keletą funkcijų ir parametrų reikalingų valdyti šį konkretų <code>SplineArchitectWall</code> aktorių</p>
 <ul>
 <li><strong>CenterActorTransform</strong> mygtukas išcentruos aktorių į vidutinę pagrindino <code>SplineComponent</code> Spline Point'ų poziciją</li>
@@ -987,7 +987,7 @@ Tam, kad <code>SplineArchitectWall</code> generuotu meshus, jis turi turėti <co
 <li><strong>BooleansToUse</strong> array'us nurodantis kuriuos <code>SplineArchitectBoolean</code> aktorius šis <code>SplineArchitectWall</code> aktorius naudos iškirsti skylėms grindų ar lubų meshuose</li>
 <li><strong>Seed</strong> nurodo kokį random seed'ą naudos šis aktorius, jeigu yra naudojami randomizavimo parametrai. Norint išvengti panašiai randomizuotų aktorių</li>
 </ul>
-</div>
+</div></div>
 
 
 

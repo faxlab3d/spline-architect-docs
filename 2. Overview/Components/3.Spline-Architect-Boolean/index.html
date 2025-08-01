@@ -601,7 +601,7 @@
   
   
   <span class="md-ellipsis">
-    Wall Preset
+    4.Wall preset
     
   </span>
   
@@ -834,23 +834,23 @@
 
 
 
-<h1 id="splinearchitectboolean">SplineArchitectBoolean<a class="headerlink" href="#splinearchitectboolean" title="Permanent link">&para;</a></h1>
-<p><a class="glightbox" href="../assets/boolean-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/boolean-example.gif" /></a></p>
-<h2 id="1-what-is-splinearchitectboolean">1. What is <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#1-what-is-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<div><h1 id="splinearchitectboolean">SplineArchitectBoolean<a class="headerlink" href="#splinearchitectboolean" title="Permanent link">¶</a></h1>
+<p><a class="glightbox" href="../assets/boolean-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/boolean-example.gif"></a></p>
+<h2 id="1-what-is-splinearchitectboolean">1. What is <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#1-what-is-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectBoolean</code> is an actor that allows performing boolean operations on <code>SplineArchitectWall</code> floor or ceiling meshes. This lets you cut holes for stairs or similar features. The Boolean shape can be any StaticMesh asset.</p>
-<hr />
-<h2 id="2-how-to-create-a-splinearchitectboolean">2. How to create a <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-how-to-create-a-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="2-how-to-create-a-splinearchitectboolean">2. How to create a <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-how-to-create-a-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <p>There are two ways to create a <code>SplineArchitectBoolean</code> actor:</p>
 <ul>
 <li>The first way is to find it in the actor creation menu and drag it into the level.</li>
 </ul>
-<p><a class="glightbox" href="../assets/spline-architect-boolean-actor-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/spline-architect-boolean-actor-add.jpg" /></a></p>
-<p><a class="glightbox" href="../assets/boolean-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/boolean-button.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/spline-architect-boolean-actor-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/spline-architect-boolean-actor-add.jpg"></a></p>
+<p><a class="glightbox" href="../assets/boolean-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/boolean-button.jpg"></a></p>
 <ul>
 <li>The second way is simply to press the "Add Boolean" button in the Spline Architect utility widget. This button does exactly the same as described above. The new <code>SplineArchitectBoolean</code> will spawn at the center of the viewport in the level. If it touches a <code>SplineArchitectWall</code>, it will automatically be added to the "Booleans to Use" array in that <code>SplineArchitectWall</code> actor.</li>
 </ul>
-<hr />
-<h2 id="3-how-to-use-splinearchitectboolean">3. How to use <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#3-how-to-use-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="3-how-to-use-splinearchitectboolean">3. How to use <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#3-how-to-use-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -861,18 +861,18 @@
 <tbody>
 <tr>
 <td>A <code>SplineArchitectBoolean</code> actor can be used with one or multiple <code>SplineArchitectWall</code> actors. To cut a hole in a <code>SplineArchitectWall</code>, you must add the <code>SplineArchitectBoolean</code> to the "Booleans to Use" array in the <code>SplineArchitectWall</code> actor.</td>
-<td><a class="glightbox" href="../assets/booleans-to-use.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/booleans-to-use.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../assets/booleans-to-use.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/booleans-to-use.jpg" width="150px"></a></td>
 </tr>
 <tr>
 <td>Booleans can be of any shape; the shape is copied from a <code>StaticMesh</code> asset.</td>
-<td><a class="glightbox" href="../assets/boolean-mesh.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/boolean-mesh.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../assets/boolean-mesh.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/boolean-mesh.jpg" width="150px"></a></td>
 </tr>
 <tr>
 <td>When changing the mesh or position of a <code>SplineArchitectBoolean</code>, the associated <code>SplineArchitectWall</code> actors won’t update automatically and need to be regenerated. This can be done easily by selecting the <code>SplineArchitectWall</code> actor and pressing <strong>"UnBake"</strong> or <strong>"Bake"</strong> on the actor itself, or <strong>"Unbake Connected"</strong> or <strong>"Rebake Connected"</strong> in the utility widget.</td>
-<td><a class="glightbox" href="../assets/bake-unbake.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/bake-unbake.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../assets/bake-unbake.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/bake-unbake.jpg" width="150px"></a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 

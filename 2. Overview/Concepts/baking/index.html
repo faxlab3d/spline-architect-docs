@@ -530,7 +530,7 @@
   
   
   <span class="md-ellipsis">
-    Wall Preset
+    4.Wall preset
     
   </span>
   
@@ -740,25 +740,25 @@
 
 
 
-<h1 id="baking">Baking<a class="headerlink" href="#baking" title="Permanent link">&para;</a></h1>
+<div><h1 id="baking">Baking<a class="headerlink" href="#baking" title="Permanent link">¶</a></h1>
 <p>Baking is one of the core features of the Spline Architect plugin. Before packaging the game, all <code>SplineArchitectWall</code> actors must be baked. This means all procedurally generated details become StaticMesh or InstancedStaticMesh components, the dynamically generated meshes are saved as StaticMesh assets, and the <code>SplineArchitectWall</code> no longer executes any logic when the Level loads (no Construction Script runs).</p>
-<p><a class="glightbox" href="../assets/baking.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/baking.gif" /></a></p>
-<p><a class="glightbox" href="../assets/baking-buttons.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking-buttons.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/baking.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/baking.gif"></a></p>
+<p><a class="glightbox" href="../assets/baking-buttons.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking-buttons.jpg"></a></p>
 <p>In the <code>SplineArchitectWall</code> "Details" panel, there are buttons responsible for baking. You can also choose how the components will be baked: either as <code>Instanced</code> or <code>Components</code>.</p>
 <ul>
 <li>The <code>Instanced</code> bake method creates <code>InstancedStaticMeshComponent</code>s, which are more performant to render but harder to edit position, rotation, or other parameters after baking.</li>
 <li>The <code>Components</code> bake method creates individual <code>StaticMeshComponent</code>s, which are easier to edit but require more draw calls.</li>
 </ul>
-<hr />
+<hr>
 <p>Once a <code>SplineArchitectWall</code> is baked, its WallPreset can no longer be edited. If the preset appears grayed out, it means the actor is baked. The bake status can also be seen by checking the "Baked" boolean.</p>
-<p><a class="glightbox" href="../assets/baked-bool.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/baked-bool.jpg" /></a></p>
-<hr />
-<p><a class="glightbox" href="../assets/baking-menu.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking-menu.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/baked-bool.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/baked-bool.jpg"></a></p>
+<hr>
+<p><a class="glightbox" href="../assets/baking-menu.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking-menu.jpg"></a></p>
 <p>You don’t need to bake each <code>SplineArchitectWall</code> individually. The Utility Widget has buttons in the "Bake" section that allow you to bake or unbake all, selected, or connected <code>SplineArchitectWall</code> actors.</p>
 <p>More details about these buttons can be found <a href="../../Components/5.Widgets/#bake">here</a>.</p>
-<hr />
-<h1 id="automatic-baking">Automatic Baking<a class="headerlink" href="#automatic-baking" title="Permanent link">&para;</a></h1>
-<p>In the Spline Architect Project Settings, you can enable automatic baking of walls when the Level is saved. More information can be found in the <a href="../../Components/6.Project-Settings/#on-level-save-action">Project Settings</a> section.</p>
+<hr>
+<h1 id="automatic-baking">Automatic Baking<a class="headerlink" href="#automatic-baking" title="Permanent link">¶</a></h1>
+<p>In the Spline Architect Project Settings, you can enable automatic baking of walls when the Level is saved. More information can be found in the <a href="../../Components/6.Project-Settings/#on-level-save-action">Project Settings</a> section.</p></div>
 
 
 

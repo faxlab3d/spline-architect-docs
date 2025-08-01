@@ -814,9 +814,9 @@
 
 
 
-<h1 id="kaip-veikia">Kaip veikia?<a class="headerlink" href="#kaip-veikia" title="Permanent link">&para;</a></h1>
-<hr />
-<h2 id="veikimo-principas">Veikimo principas<a class="headerlink" href="#veikimo-principas" title="Permanent link">&para;</a></h2>
+<div><h1 id="kaip-veikia">Kaip veikia?<a class="headerlink" href="#kaip-veikia" title="Permanent link">¶</a></h1>
+<hr>
+<h2 id="veikimo-principas">Veikimo principas<a class="headerlink" href="#veikimo-principas" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -827,32 +827,32 @@
 <tbody>
 <tr>
 <td>Spline Architect leidžia kurti sienas ir pastatus išdėliojant modulinius meshus pagal spline'ą. Mesh'ai ant kampų yra sugeneruojami dinamiškai, jie gali būtų statūs ar lenkti.</td>
-<td width="200px"><a class="glightbox" href="assets/simple-wall-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/simple-wall-example.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/simple-wall-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/simple-wall-example.gif"></a></td>
 </tr>
 <tr>
 <td>Grindų mesh'ai taippat yra sugeneruojami dinamiškai kiekvienam <code>SplineArchitectWall</code> unikaliai.</td>
-<td width="200px"><a class="glightbox" href="assets/floor-mesh.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/floor-mesh.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/floor-mesh.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/floor-mesh.gif"></a></td>
 </tr>
 <tr>
 <td>Generacija vyksta <code>SplineArchitectWall</code> aktoriuje, <code>OnConstruct()</code> funkcijoje. Generacija vyks kiekvieną kartą jį užkrovus, nebent struktūra bus išbake'inta.</td>
-<td width="200px"><a class="glightbox" href="assets/baked-disabled.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-disabled.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baked-disabled.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-disabled.gif"></a></td>
 </tr>
 <tr>
 <td>Išbake'inus <code>SplineArchitectWall</code>, visi „vienkartiniai“ meshai yra paverčiami į paprastus <code>StaticMesh</code> komponentus ir aktorius daugiau nebevykdo jokios logikos jį kraunant.</td>
-<td width="200px"><a class="glightbox" href="assets/baking-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baking-components.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baking-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baking-components.gif"></a></td>
 </tr>
 <tr>
 <td>Išbake'inti komponentai gali būti modifikuojami, pakeitimai laikysis iki kol <code>SplineArchitectWall</code> bus išbake'inamas iš naujo.</td>
-<td width="200px"><a class="glightbox" href="assets/modifying-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/modifying-components.gif" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/modifying-components.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/modifying-components.gif"></a></td>
 </tr>
 <tr>
 <td>Bake'inimo metu taip pat yra sukūriami <code>StaticMesh</code> asset'ai kampams ir grindims. Mesh'ai yra užsaugomi su tvarkingais pavadinimais ir, esant galimybei, yra pernaudojami kitose struktūrose.</td>
-<td width="200px"><a class="glightbox" href="assets/baked-assets.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-assets.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/baked-assets.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/baked-assets.jpg"></a></td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="svarbus-niuansai">Svarbūs niuansai<a class="headerlink" href="#svarbus-niuansai" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="svarbus-niuansai">Svarbūs niuansai<a class="headerlink" href="#svarbus-niuansai" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -863,14 +863,14 @@
 <tbody>
 <tr>
 <td>Spline Architect tikisi, kad jūsų moduliniai mesh'ai bus sukonfigūruoti taip:<br>- Jų ilgis būtų ant X ašies<br>- Pivot point'as X ir Y ašimis per vidurį ir Z ašimi ant grindų.</td>
-<td width="200px"><a class="glightbox" href="assets/pivot-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/pivot-example.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/pivot-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/pivot-example.jpg"></a></td>
 </tr>
 <tr>
 <td>Visi <code>SplineArchitectWall</code> aktoriai turi būti išbake'inti prieš package'inant žaidimą, kitaip žaidime mesh'ai neegzistuos.</td>
-<td width="200px"><a class="glightbox" href="assets/bake-methods.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/bake-methods.jpg" /></a></td>
+<td width="200px"><a class="glightbox" href="assets/bake-methods.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="assets/bake-methods.jpg"></a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 

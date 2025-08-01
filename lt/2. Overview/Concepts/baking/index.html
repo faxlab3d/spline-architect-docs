@@ -740,25 +740,25 @@
 
 
 
-<h1 id="bakeinimas">Bake'inimas<a class="headerlink" href="#bakeinimas" title="Permanent link">&para;</a></h1>
+<div><h1 id="bakeinimas">Bake'inimas<a class="headerlink" href="#bakeinimas" title="Permanent link">¶</a></h1>
 <p>Bake'inimas yra vienas iš esminių dalykų Spline Architect plugin'e. Prieš package'inant žaidimą, visi <code>SplineArchitectWall</code> turi būti išbake'inti. Tai reiškia, kad visos sugeneruotos detalės taps StaticMesh ar InstancedStaticMesh komponentais, dinamiškai sugeneruotos detalės bus užsaugotos, kaip StatcMesh asset'ai ir <code>SplineArchitectWall</code> nebevykdys jokios logikos pasileidžiant Level'iui (jokio ConstructionScript).</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Concepts/assets/baking.gif" /></a></p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking-buttons.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Concepts/assets/baking-buttons.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Concepts/assets/baking.gif"></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking-buttons.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Concepts/assets/baking-buttons.jpg"></a></p>
 <p><code>SplineArchitectWall</code> "Details" panel'yje yra mygtukai atsakingi už bake'inimą. Taippat yra pasirinkimas, kaip bus išbake'inti komponentai. <code>Instanced</code> arba <code>Components</code></p>
 <ul>
 <li><code>Instanced</code> bake metodu bus sukurti <code>InstancedStaticMeshComponent</code> komponentai, kurie bus našesni renderinti, bet bus sunku redaguoti poziciją, rotaciją ar kitus parametrus po bake'inimo.</li>
 <li><code>Components</code> bake metodu bus sukurti <code>StaticMeshComponent</code> komponentai, kurie bus lengvai redaguojami, bet reikalauja daugiau draw call'ų.</li>
 </ul>
-<hr />
+<hr>
 <p>Išbake'inus <code>SplineArchitectWall</code> WallPreset'o nebebus galima redaguoti, ir jeigu jis bus 'grayed-out', reiškia šis aktorius yra išbake'intas. Taip pat, bake statusą galima matyti pažiūrėjus į "Baked" bool'ą.</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baked-bool.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Concepts/assets/baked-bool.jpg" /></a></p>
-<hr />
-<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking-menu.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Concepts/assets/baking-menu.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baked-bool.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Concepts/assets/baked-bool.jpg"></a></p>
+<hr>
+<p><a class="glightbox" href="../../../../2.%20Overview/Concepts/assets/baking-menu.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Concepts/assets/baking-menu.jpg"></a></p>
 <p>Norint išbake'inti <code>SplineArchitectWall</code>, nereikia to daryti kiekvienam <code>SplineArchitectWall</code> atskirai. Galima naudotis "Bake" skiltyje esančiais mygtukais Utility Widget'e. Galima išbake'inti ar atbake'inti visus, pasirinktus ar sujungtus <code>SplineArchitectWall</code> aktorius.
 Daugiau apie šiuos mygtukus galima rasti <a href="../../Components/5.Widgets/#bake">čia</a></p>
-<hr />
-<h1 id="automatinis-bakeinimas">Automatinis bake'inimas<a class="headerlink" href="#automatinis-bakeinimas" title="Permanent link">&para;</a></h1>
-<p>Spline Architect Project Settings'uose galima nusistatyti, kad sienos būtų automatiškai išbake'inamos tuo metu, kai yra save'inamas Level'is. Daugiau apie tai <a href="../../Components/6.Project-Settings/#on-level-save-action">Project Settings</a> skiltyje</p>
+<hr>
+<h1 id="automatinis-bakeinimas">Automatinis bake'inimas<a class="headerlink" href="#automatinis-bakeinimas" title="Permanent link">¶</a></h1>
+<p>Spline Architect Project Settings'uose galima nusistatyti, kad sienos būtų automatiškai išbake'inamos tuo metu, kai yra save'inamas Level'is. Daugiau apie tai <a href="../../Components/6.Project-Settings/#on-level-save-action">Project Settings</a> skiltyje</p></div>
 
 
 

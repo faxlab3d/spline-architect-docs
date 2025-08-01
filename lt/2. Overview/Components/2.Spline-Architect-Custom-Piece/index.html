@@ -834,22 +834,22 @@
 
 
 
-<h1 id="splinearchitectcustompiece">SplineArchitectCustomPiece<a class="headerlink" href="#splinearchitectcustompiece" title="Permanent link">&para;</a></h1>
-<h2 id="1-kas-yra-splinearchitectcustompiece">1. Kas yra <code>SplineArchitectCustomPiece</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectcustompiece" title="Permanent link">&para;</a></h2>
+<div><h1 id="splinearchitectcustompiece">SplineArchitectCustomPiece<a class="headerlink" href="#splinearchitectcustompiece" title="Permanent link">¶</a></h1>
+<h2 id="1-kas-yra-splinearchitectcustompiece">1. Kas yra <code>SplineArchitectCustomPiece</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectcustompiece" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectCustomPiece</code> yra aktorius, kuris yra priattach'inamas prie <code>SplineArchitectWall</code> aktoriaus ir leidžia įterpti bet kokį mesh'ą tarp sienų</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-pieces.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-pieces.gif" /></a></p>
-<h2 id="2-kaip-sukurti-splinearchitectcustompiece">2. Kaip sukurti <code>SplineArchitectCustomPiece</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectcustompiece" title="Permanent link">&para;</a></h2>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-pieces.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-pieces.gif"></a></p>
+<h2 id="2-kaip-sukurti-splinearchitectcustompiece">2. Kaip sukurti <code>SplineArchitectCustomPiece</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectcustompiece" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectCustomPiece</code> aktorius gali būti sukurtas dviem būdais:</p>
 <ul>
 <li>Pirmas būdas yra rasti aktorių kūrimo meniu ir nutempti jį į level'į. Tada reikia priattach'inti jį prie <code>SplineArchitectWall</code> aktoriaus, ir jis bus prisnap'inamas prie savo parent <code>SplineArchitectWall</code> aktoriaus</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-add.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-add.jpg"></a></p>
 <ul>
 <li>Antras būdas yra tiesiog paspausti "Add Custom Piece" mygtuką Spline Architect pagalbiniame widget'e. Šis mygtukas padarys tą patį, kaip ir instrukcijos viršuje. Naujas <code>SplineArchitectCustomPiece</code> bus paspawn'intas levelyje viewport'o centre ir priattach'intas prie pažymėto <code>SplineArchitectWall</code> aktoriaus</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-button.jpg" /></a></p>
-<h2 id="3-splinearchitectcustompiece-parametrai">3. <code>SplineArchitectCustomPiece</code> parametrai<a class="headerlink" href="#3-splinearchitectcustompiece-parametrai" title="Permanent link">&para;</a></h2>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-preset.jpg" width="250px" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-button.jpg"></a></p>
+<h2 id="3-splinearchitectcustompiece-parametrai">3. <code>SplineArchitectCustomPiece</code> parametrai<a class="headerlink" href="#3-splinearchitectcustompiece-parametrai" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/custom-piece-preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/custom-piece-preset.jpg" width="250px"></a></p>
 <ul>
 <li><strong>Lock Position</strong> Ši funkcija užrakins Custom Piece ir jos pozicija liks vietoje, net jei <code>SplineArchitectWall</code> bus perkeltas ar pakeistas. Tai naudinga, kai, sakykime durys turi būti visada vienoje vietoje level'yje</li>
 <li><strong>Unlock Position</strong> Ši funkcija atrakins Custom Piece poziciją, ir jis vėl judės kartu su savo <code>SplineArchitectWall</code> parent'u</li>
@@ -864,7 +864,7 @@
 <li><strong>Child Actor Class</strong> Tai yra klasė, kuri bus naudojama kaip Child Actor. Naudinga, jeigu norite pridėti papildomų funkcijų prie Custom Piece, pavyzdžiui, dinamiškai atsidarinėjančias duris.</li>
 <li><strong>Location Locked</strong> Tai yra parametras, kuris rodo, ar Custom Piece pozicija yra užrakinta ar ne. </li>
 <li><strong>Locked Location</strong> Tai yra Custom Piece pozicija, kuri bus naudojama, kai Location Locked yra <code>true</code>. Naudojant Lock Position funkciją, jis bus nustatytas į esamą Custom Piece poziciją. Galima modifikuoti rankiniu būdu, jeigu reikia.</li>
-</ul>
+</ul></div>
 
 
 

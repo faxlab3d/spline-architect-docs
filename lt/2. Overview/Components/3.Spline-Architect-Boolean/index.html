@@ -834,23 +834,23 @@
 
 
 
-<h1 id="splinearchitectboolean">SplineArchitectBoolean<a class="headerlink" href="#splinearchitectboolean" title="Permanent link">&para;</a></h1>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/boolean-example.gif" /></a></p>
-<h2 id="1-kas-yra-splinearchitectboolean">1. Kas yra <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<div><h1 id="splinearchitectboolean">SplineArchitectBoolean<a class="headerlink" href="#splinearchitectboolean" title="Permanent link">¶</a></h1>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-example.gif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/boolean-example.gif"></a></p>
+<h2 id="1-kas-yra-splinearchitectboolean">1. Kas yra <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#1-kas-yra-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectBoolean</code> yra aktorius, kuris leidžia atlikti boolean operacijas su <code>SplineArchitectWall</code> grindų ar lubų meshuose. Tai leidžia iškirpti skyles laiptams ar panašiai. Boolean'o forma gali būti bet koks StaticMesh asset'as</p>
-<hr />
-<h2 id="2-kaip-sukurti-splinearchitectboolean">2. Kaip sukurti <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="2-kaip-sukurti-splinearchitectboolean">2. Kaip sukurti <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-kaip-sukurti-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectBoolean</code> aktorius gali būti sukurtas dviem būdais:</p>
 <ul>
 <li>Pirmas būdas yra rasti aktorių kūrimo meniu ir nutempti jį į level'į.</li>
 </ul>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/spline-architect-boolean-actor-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/spline-architect-boolean-actor-add.jpg" /></a></p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/boolean-button.jpg" /></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/spline-architect-boolean-actor-add.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/spline-architect-boolean-actor-add.jpg"></a></p>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-button.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../../../../2.%20Overview/Components/assets/boolean-button.jpg"></a></p>
 <ul>
 <li>Antras būdas yra tiesiog paspausti "Add Boolean" mygtuką Spline Architect pagalbiniame widget'e. Šis mygtukas padarys tą patį, kaip ir instrukcijos viršuje. Naujas <code>SplineArchitectBoolean</code> bus paspawn'intas levelyje viewport'o centre. Jeigu jis liesis prie <code>SplineArchitectWall</code>, bus aušomatiškai įdėtas į "Booleans to Use" array'ų tame <code>SplineArchitectWall</code> aktoriuje.</li>
 </ul>
-<hr />
-<h2 id="2-kaip-naudoti-splinearchitectboolean">2. Kaip naudoti <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-kaip-naudoti-splinearchitectboolean" title="Permanent link">&para;</a></h2>
+<hr>
+<h2 id="2-kaip-naudoti-splinearchitectboolean">2. Kaip naudoti <code>SplineArchitectBoolean</code>?<a class="headerlink" href="#2-kaip-naudoti-splinearchitectboolean" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -861,18 +861,18 @@
 <tbody>
 <tr>
 <td><code>SplineArchitectBoolean</code> aktorius gali būti naudojamas vieno ar kelių <code>SplineArchitectWall</code> aktorių. Jeigu norime iškirpti skylę kokiame nors <code>SplineArchitectWall</code>, turime pridėti <code>SplineArchitectBoolean</code> į "Booleans to Use" array'ų <code>SplineArchitectWall</code> aktoriuje.</td>
-<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/booleans-to-use.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/booleans-to-use.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/booleans-to-use.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/booleans-to-use.jpg" width="150px"></a></td>
 </tr>
 <tr>
 <td>Boolean'ai gali būt bet kokios formos, ji bus nukopijuota iš <code>StaticMesh</code> asset'o.</td>
-<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-mesh.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/boolean-mesh.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/boolean-mesh.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/boolean-mesh.jpg" width="150px"></a></td>
 </tr>
 <tr>
 <td>Pakeitus <code>SplineArchitectBoolean</code> mesh'ą ar poziciją, <code>SplineArchitectWall</code> aktoriai nebus automatiškai atnaujinti ir jie turės būt iš naujo sugeneruoti. Tą lengvai galima padaryti paselect'inus <code>SplineArchitectWall</code> aktorių ir paspaudus <strong>"UnBake"</strong> ar <strong>"Bake"</strong> pačiame aktoriuje, arba <strong>"Unbake Connected"</strong> ar <strong>"Rebake Connected"</strong> pagalbiniame widget'e.</td>
-<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/bake-unbake.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/bake-unbake.jpg" width="150px" /></a></td>
+<td><a class="glightbox" href="../../../../2.%20Overview/Components/assets/bake-unbake.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/bake-unbake.jpg" width="150px"></a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 

@@ -643,7 +643,7 @@
   
   
   <span class="md-ellipsis">
-    Wall Preset
+    4.Wall preset
     
   </span>
   
@@ -918,42 +918,42 @@
 
 
 
-<h1 id="splinearchitectwall">SplineArchitectWall<a class="headerlink" href="#splinearchitectwall" title="Permanent link">&para;</a></h1>
-<h2 id="1-what-is-splinearchitectwall">1. What is <code>SplineArchitectWall</code>?<a class="headerlink" href="#1-what-is-splinearchitectwall" title="Permanent link">&para;</a></h2>
+<div><h1 id="splinearchitectwall">SplineArchitectWall<a class="headerlink" href="#splinearchitectwall" title="Permanent link">¶</a></h1>
+<h2 id="1-what-is-splinearchitectwall">1. What is <code>SplineArchitectWall</code>?<a class="headerlink" href="#1-what-is-splinearchitectwall" title="Permanent link">¶</a></h2>
 <p><code>SplineArchitectWall</code> is the main class, or actor, where details made from modular meshes will be generated.
 For <code>SplineArchitectWall</code> to generate meshes, it must have a <code>SplineComponent</code> component.</p>
-<p><a class="glightbox" href="../assets/wall-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/wall-example.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/wall-example.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/wall-example.jpg"></a></p>
 <p>When attaching one <code>SplineArchitectWall</code> to another, the attached actor will be positioned on its parent and generate meshes on top, like a second floor or similar.</p>
-<p><a class="glightbox" href="../assets/stacked-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/stacked-wall.jpg" /></a></p>
-<hr />
-<h2 id="2-how-to-create-a-splinearchitectwall">2. How to create a <code>SplineArchitectWall</code>?<a class="headerlink" href="#2-how-to-create-a-splinearchitectwall" title="Permanent link">&para;</a></h2>
+<p><a class="glightbox" href="../assets/stacked-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/stacked-wall.jpg"></a></p>
+<hr>
+<h2 id="2-how-to-create-a-splinearchitectwall">2. How to create a <code>SplineArchitectWall</code>?<a class="headerlink" href="#2-how-to-create-a-splinearchitectwall" title="Permanent link">¶</a></h2>
 <p>You can create a <code>SplineArchitectWall</code> in two ways:</p>
 <ul>
 <li>The first way is to find it in the actor creation menu and drag it into the level.</li>
 </ul>
-<p><a class="glightbox" href="../assets/create-wall-actor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/create-wall-actor.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/create-wall-actor.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/create-wall-actor.jpg"></a></p>
 <p>For the created actor to generate meshes, you need to add a <code>SplineComponent</code> component to the actor itself.</p>
-<p><a class="glightbox" href="../assets/add-spline-comp.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/add-spline-comp.jpg" /></a></p>
-<hr />
+<p><a class="glightbox" href="../assets/add-spline-comp.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/add-spline-comp.jpg"></a></p>
+<hr>
 <ul>
 <li>The second and easier way is to simply press the "Add Spline Wall" button in the Spline Architect utility widget. This button does the same as the instructions above. A new <code>SplineArchitectWall</code> will spawn at the viewport center in the level and have a <code>SplineComponent</code> component added.</li>
 </ul>
-<p><a class="glightbox" href="../assets/add-spline-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/add-spline-wall.jpg" /></a></p>
+<p><a class="glightbox" href="../assets/add-spline-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/add-spline-wall.jpg"></a></p>
 <ul>
 <li>You can create a new <code>SplineArchitectWall</code> and attach it to the selected <code>SplineArchitectWall</code> by pressing "Add Wall to Selected".</li>
 </ul>
-<p><a class="glightbox" href="../assets/stack-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/stack-wall.jpg" /></a></p>
-<hr />
-<h2 id="3-splinearchitectwall-parameters">3. <code>SplineArchitectWall</code> parameters<a class="headerlink" href="#3-splinearchitectwall-parameters" title="Permanent link">&para;</a></h2>
-<p><a class="glightbox" href="../assets/spline-architect-wall-parameters.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/spline-architect-wall-parameters.jpg" width="100px" /></a></p>
+<p><a class="glightbox" href="../assets/stack-wall.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/stack-wall.jpg"></a></p>
+<hr>
+<h2 id="3-splinearchitectwall-parameters">3. <code>SplineArchitectWall</code> parameters<a class="headerlink" href="#3-splinearchitectwall-parameters" title="Permanent link">¶</a></h2>
+<p><a class="glightbox" href="../assets/spline-architect-wall-parameters.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../assets/spline-architect-wall-parameters.jpg" width="100px"></a></p>
 <div class="box-red">
-<h3 id="1-preset">1. Preset<a class="headerlink" href="#1-preset" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../assets/preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/preset.jpg" /></a></p>
+<h3 id="1-preset">1. Preset<a class="headerlink" href="#1-preset" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../assets/preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/preset.jpg"></a></p>
 <p>The Preset category has a single parameter "Preset," which is a struct specifying exactly how the <code>SplineArchitectWall</code> will be generated, which meshes will be used, etc.</p>
 </div>
 <div class="box-yellow">
-<h3 id="2-adjust-spline">2. Adjust Spline<a class="headerlink" href="#2-adjust-spline" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../assets/adjust-spline.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/adjust-spline.jpg" /></a></p>
+<h3 id="2-adjust-spline">2. Adjust Spline<a class="headerlink" href="#2-adjust-spline" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../assets/adjust-spline.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/adjust-spline.jpg"></a></p>
 <p>The Adjust Spline category contains functions for working with the <code>SplineComponent</code> in this actor:</p>
 <ul>
 <li><strong>Flatten Spline Points</strong> sets all spline points' Z positions to the first spline point's Z position, useful if any spline point was accidentally moved on the Z axis.</li>
@@ -965,8 +965,8 @@ For <code>SplineArchitectWall</code> to generate meshes, it must have a <code>Sp
 </ul>
 </div>
 <div class="box-green">
-<h3 id="3-baking">3. Baking<a class="headerlink" href="#3-baking" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../assets/baking.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking.jpg" /></a></p>
+<h3 id="3-baking">3. Baking<a class="headerlink" href="#3-baking" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../assets/baking.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/baking.jpg"></a></p>
 <p>The Baking category contains functions and parameters needed to bake or unbake the <code>SplineArchitectWall</code> actor.
 A baked actor will no longer regenerate meshes, and its WallPreset will be locked and unmodifiable until the "UnBake" function is used.</p>
 <p><a href="../../Concepts/baking">More about baking</a></p>
@@ -978,8 +978,8 @@ A baked actor will no longer regenerate meshes, and its WallPreset will be locke
 </ul>
 </div>
 <div class="box-blue">
-<h3 id="4-controls">4. Controls<a class="headerlink" href="#4-controls" title="Permanent link">&para;</a></h3>
-<p><a class="glightbox" href="../assets/controls.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/controls.jpg" /></a></p>
+<h3 id="4-controls">4. Controls<a class="headerlink" href="#4-controls" title="Permanent link">¶</a></h3>
+<p><a class="glightbox" href="../assets/controls.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" alt="img" src="../assets/controls.jpg"></a></p>
 <p>The Controls category contains several functions and parameters to manage this specific <code>SplineArchitectWall</code> actor:</p>
 <ul>
 <li><strong>CenterActorTransform</strong> button centers the actor to the average position of the main <code>SplineComponent</code> spline points.</li>
@@ -987,7 +987,7 @@ A baked actor will no longer regenerate meshes, and its WallPreset will be locke
 <li><strong>BooleansToUse</strong> array specifying which <code>SplineArchitectBoolean</code> actors this <code>SplineArchitectWall</code> uses to cut holes in floor or ceiling meshes.</li>
 <li><strong>Seed</strong> specifies the random seed used by this actor when randomization parameters are applied, to avoid similar randomization results among actors.</li>
 </ul>
-</div>
+</div></div>
 
 
 

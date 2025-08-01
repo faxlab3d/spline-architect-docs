@@ -596,15 +596,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#floorsurfaces-parametrai-fwallpreset" class="md-nav__link">
-    <span class="md-ellipsis">
-      FloorSurfaces parametrai (FWallPreset):
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#floorsurfaces-parametrai-ffloordata" class="md-nav__link">
     <span class="md-ellipsis">
       FloorSurfaces parametrai (FFloorData):
@@ -883,15 +874,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#floorsurfaces-parametrai-fwallpreset" class="md-nav__link">
-    <span class="md-ellipsis">
-      FloorSurfaces parametrai (FWallPreset):
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#floorsurfaces-parametrai-ffloordata" class="md-nav__link">
     <span class="md-ellipsis">
       FloorSurfaces parametrai (FFloorData):
@@ -978,13 +960,12 @@
 
 
 
-<h1 id="wall-preset">Wall Preset<a class="headerlink" href="#wall-preset" title="Permanent link">&para;</a></h1>
-<h2 id="1-kas-yra-wall-preset">1. Kas yra Wall Preset?<a class="headerlink" href="#1-kas-yra-wall-preset" title="Permanent link">&para;</a></h2>
+<div><h1 id="wall-preset">Wall Preset<a class="headerlink" href="#wall-preset" title="Permanent link">¶</a></h1>
+<h2 id="1-kas-yra-wall-preset">1. Kas yra Wall Preset?<a class="headerlink" href="#1-kas-yra-wall-preset" title="Permanent link">¶</a></h2>
 <p>Wall Preset yra Struct'as, kuris ir nurodo, kaip atrodys sugeneruotas <code>SplineArchitectWall</code> aktorius. Jis yra <code>SplineArchitectWall</code> aktoriaus Preset kategorijoje (Details panel).</p>
-<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/wall-preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/wall-preset.jpg" width="300px" /></a></p>
-<hr />
-<h2 id="2-ka-daro-wall-preset-parametrai">2. Ką daro Wall Preset parametrai?<a class="headerlink" href="#2-ka-daro-wall-preset-parametrai" title="Permanent link">&para;</a></h2>
-<h3 id="floorsurfaces-parametrai-fwallpreset">FloorSurfaces parametrai (FWallPreset):<a class="headerlink" href="#floorsurfaces-parametrai-fwallpreset" title="Permanent link">&para;</a></h3>
+<p><a class="glightbox" href="../../../../2.%20Overview/Components/assets/wall-preset.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="img" src="../../../../2.%20Overview/Components/assets/wall-preset.jpg" width="300px"></a></p>
+<hr>
+<h2 id="2-ka-daro-wall-preset-parametrai">2. Ką daro Wall Preset parametrai?<a class="headerlink" href="#2-ka-daro-wall-preset-parametrai" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
@@ -995,15 +976,15 @@
 <tbody>
 <tr>
 <td><strong>WallHeight</strong><br>– Nustato sienos aukštį; pagal šią reikšmę scale'as pritaikomas visiems mesh’ams.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/wall-height.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>HeightOverride</strong><br>– Jeigu <code>true</code>, leidžia rankiniu būdu nustatyti sienos aukštį; kitu atveju <code>WallHeight</code> imamas iš pirmojo <code>WallMeshes</code> array elemento.</td>
 <td></td>
 </tr>
 <tr>
-<td><strong>WallLength</strong><br>– Nustato sienos ilgį; spline segmentai bus padalinti pagal šią reikšmę.</td>
-<td></td>
+<td><strong>WallLength</strong><br>– Nustato sienos segmento ilgį; segmentai bus padalinti pagal šią reikšmę, o mesh'ai iš WallMeshes array bus parinkti pagal segmento ilgį.</td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/wall-length.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>LengthOverride</strong><br>– Jeigu <code>true</code>, leidžia rankiniu būdu nustatyti sienos ilgį; kitu atveju <code>WallLength</code> imamas iš pirmojo <code>WallMeshes</code> array elemento.</td>
@@ -1011,43 +992,43 @@
 </tr>
 <tr>
 <td><strong>CornerLength</strong><br>– Nustato kampo ilgį; tiek atimama iš segmentų, kad susidarytų kampas.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/corner-length.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>CornerLengthOverride</strong><br>– Jeigu <code>true</code>, leidžia rankiniu būdu keisti kampo ilgį; kitu atveju <code>CornerLength</code> imamas iš <code>CornerMesh</code>.</td>
 <td></td>
 </tr>
 <tr>
-<td><strong>RandomizeSegmentsBy</strong><br>– Atsitiktinai pakinta segmentų ilgiai iki nurodytos ribos.</td>
-<td></td>
+<td><strong>RandomizeSegmentsBy</strong><br>– Randomizuoja segmentų ilgį. Galima naudoti, kad paįvairinti sieną, pagal segmento ilgį gali būti parinktas kitoks mesh'as, kas prideda variacijos</td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/random-length.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
-<td><strong>WallZHandling</strong><br>– Nurodo, kaip tvarkyti Z ašies skirtumus tarp segmentų (<code>KeepZ</code>, <code>FollowSpline</code> ir <code>Skew</code>).</td>
-<td></td>
+<td><strong>WallZHandling</strong><br>– Nurodo, kaip rikiuoti mesh'us, kai Spline'o segmentai yra ne plokšti. (<code>KeepZ</code> išlaikys "Pitch" rotaciją ant 0 ir tik keis mesh'o Z poziciją, <code>FollowSpline</code> pasuks mesh'ą taip, koks yra to segmento "Pitch" ir <code>Skew</code> sugeneruos naują, išlenktą mesh'ą).</td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/z-handling.mp4" type="video/mp4"></source></video></div><br><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/z-handling-2.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>SkipPieces</strong><br>– Leidžia praleisti arba palikti tam tikrus segmentus (arba tiesius arba pakreiptus).</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/skip-pieces.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>Inset</strong><br>– Stumia mesh’us į vidų arba išorę nuo spline’o nurodytu atstumu.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/inset.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>OverlapPiecesBy</strong><br>– Persidengimo dydis, kad mesh’ai nepaliktų tarpų dėl netobulų kraštų.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/overlap.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>NumFloors</strong><br>– Kiek kartų dubliuoti segmentus su Z poslinkiu lygiu <code>WallHeight</code> (aukštų skaičius).</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/floors.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>WallMeshes</strong><br>– Pagrindiniai sienos segmentų mesh’ai; pagal segmento ilgį parenkamas tinkamiausias iš šio array'aus.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/wall-meshes.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>FillerWallMeshes</strong><br>– Papildomi mesh’ai tarpams užpildyti, kad pagrindiniai WallMesh'ai neištemptų ar nesusitrauktų.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/filler.mp4" type="video/mp4"></source></video></div><br><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/filler-2.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>MinFillerWallLength</strong><br>– Minimalus užpildymo mesh’o ilgis; trumpesni mesh’ai nebus dedami.</td>
@@ -1055,7 +1036,7 @@
 </tr>
 <tr>
 <td><strong>KeepWorldScale</strong><br>– Jeigu <code>true</code>, mesh’ai nebus scale'inami pagal segmentą, o naudos orginalų mastelį.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/world-scale.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>WorldScale</strong><br>– Mesh’ų orginalus scale'as, taikomas, kai <code>KeepWorldScale</code> yra <code>true</code>.</td>
@@ -1063,23 +1044,23 @@
 </tr>
 <tr>
 <td><strong>CornerMesh</strong><br>– Mesh’as, naudojamas kampų formavimui.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/corner-mesh.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
-<td><strong>CornerType</strong><br>– Kampo tipas: <code>Straight</code>, <code>Bend</code>, <code>Chamfer</code> arba <code>Pipe</code>.</td>
-<td></td>
+<td><strong>CornerType</strong><br>– Kampo tipas: <code>Straight</code>, <code>Bend</code>, <code>Chamfer</code> arba <code>Pipe</code>. (<code>Pipe</code> bus naudojamas vamzdžiams su centruotu pivot'u)</td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/corner-type.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>OffsetBy</strong><br>– Visus mesh’us pastumia nurodytu vektoriumi.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/offset-by.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>RandomizeLocationBy</strong><br>– Atsitiktinai pakinta mesh’ų padėtis pagal šį vektorių (rekomenduojama mažos vertės, kad nebūtų Z-fightingo).</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/randomize-location.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>FloorSurfaces</strong><br>– Grindų konfigūracijos array'us, kuriame kiekvienas elementas aprašo grindų paviršiaus parametrus.</td>
-<td></td>
+<td><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/floor-meshes.mp4" type="video/mp4"></source></video></div><br><div class="video-container"><video style="width:100%" muted controls alt="type:video" class="off-glb"><source src="../../../../2.%20Overview/Components/assets/floor-params.mp4" type="video/mp4"></source></video></div></td>
 </tr>
 <tr>
 <td><strong>PostConfigurations</strong><br>– Stulpų konfigūracijos array'us, nustatantis, kaip ir kur bus generuojami stulpai.</td>
@@ -1095,7 +1076,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="floorsurfaces-parametrai-ffloordata">FloorSurfaces parametrai (FFloorData):<a class="headerlink" href="#floorsurfaces-parametrai-ffloordata" title="Permanent link">&para;</a></h3>
+<h3 id="floorsurfaces-parametrai-ffloordata">FloorSurfaces parametrai (FFloorData):<a class="headerlink" href="#floorsurfaces-parametrai-ffloordata" title="Permanent link">¶</a></h3>
 <table>
 <thead>
 <tr>
@@ -1154,7 +1135,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="postconfigurations-parametrai-fpostdata">PostConfigurations parametrai (FPostData):<a class="headerlink" href="#postconfigurations-parametrai-fpostdata" title="Permanent link">&para;</a></h3>
+<h3 id="postconfigurations-parametrai-fpostdata">PostConfigurations parametrai (FPostData):<a class="headerlink" href="#postconfigurations-parametrai-fpostdata" title="Permanent link">¶</a></h3>
 <table>
 <thead>
 <tr>
@@ -1201,7 +1182,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="randomisationsettings-parametrai-frandomsettings">RandomisationSettings parametrai (FRandomSettings):<a class="headerlink" href="#randomisationsettings-parametrai-frandomsettings" title="Permanent link">&para;</a></h3>
+<h3 id="randomisationsettings-parametrai-frandomsettings">RandomisationSettings parametrai (FRandomSettings):<a class="headerlink" href="#randomisationsettings-parametrai-frandomsettings" title="Permanent link">¶</a></h3>
 <table>
 <thead>
 <tr>
@@ -1216,7 +1197,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="frandommeshes-parametrai">FRandomMeshes parametrai:<a class="headerlink" href="#frandommeshes-parametrai" title="Permanent link">&para;</a></h4>
+<h4 id="frandommeshes-parametrai">FRandomMeshes parametrai:<a class="headerlink" href="#frandommeshes-parametrai" title="Permanent link">¶</a></h4>
 <table>
 <thead>
 <tr>
@@ -1255,7 +1236,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="materialparameters-parametrai-fmatparams">MaterialParameters parametrai (FMatParams):<a class="headerlink" href="#materialparameters-parametrai-fmatparams" title="Permanent link">&para;</a></h3>
+<h3 id="materialparameters-parametrai-fmatparams">MaterialParameters parametrai (FMatParams):<a class="headerlink" href="#materialparameters-parametrai-fmatparams" title="Permanent link">¶</a></h3>
 <table>
 <thead>
 <tr>
@@ -1286,7 +1267,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="fmatparam-parametrai">FMatParam parametrai:<a class="headerlink" href="#fmatparam-parametrai" title="Permanent link">&para;</a></h4>
+<h4 id="fmatparam-parametrai">FMatParam parametrai:<a class="headerlink" href="#fmatparam-parametrai" title="Permanent link">¶</a></h4>
 <table>
 <thead>
 <tr>
@@ -1312,7 +1293,7 @@
 <td></td>
 </tr>
 </tbody>
-</table>
+</table></div>
 
 
 
