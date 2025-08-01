@@ -21,6 +21,13 @@ plugins:
           build: true
           site_name: "Spline Architect Plugin'o Dokumentacija (LT)"
   - glightbox:
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "100%"
+        
 markdown_extensions:
   - markdown.extensions.extra
   - markdown.extensions.attr_list
