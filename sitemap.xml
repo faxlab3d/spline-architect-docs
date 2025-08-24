@@ -85,11 +85,25 @@
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/2.Overview/Concepts/converting/"/>
     </url>
     <url>
+        <loc>None4.Tips%26Tricks/InteriorExterior/</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/InteriorExterior/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/InteriorExterior/"/>
+    </url>
+    <url>
         <loc>None4.Tips%26Tricks/Nanite/</loc>
         <lastmod>2025-08-24</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/Nanite/"/>
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/Nanite/"/>
+    </url>
+    <url>
+        <loc>None4.Tips%26Tricks/Randomization/</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/Randomization/"/>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/Randomization/"/>
     </url>
     <url>
         <loc>Nonelt/</loc>
@@ -176,10 +190,24 @@
         <xhtml:link rel="alternate" hreflang="en" href="None2.Overview/Concepts/converting/"/>
     </url>
     <url>
+        <loc>Nonelt/4.Tips%26Tricks/InteriorExterior/</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/InteriorExterior/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/InteriorExterior/"/>
+    </url>
+    <url>
         <loc>Nonelt/4.Tips%26Tricks/Nanite/</loc>
         <lastmod>2025-08-24</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/Nanite/"/>
         <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/Nanite/"/>
+    </url>
+    <url>
+        <loc>Nonelt/4.Tips%26Tricks/Randomization/</loc>
+        <lastmod>2025-08-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="lt" href="Nonelt/4.Tips%26Tricks/Randomization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None4.Tips%26Tricks/Randomization/"/>
     </url>
 </urlset>
